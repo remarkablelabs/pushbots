@@ -25,8 +25,8 @@ module Pushbots
         msg: message,
         sound: sound
       }
-      data[:badge] if badge
-      data[:payload] if payload
+      data[:badge] = badge if badge
+      data[:payload] = payload if payload
       data
     end
   end
