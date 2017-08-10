@@ -1,7 +1,7 @@
 module Pushbots
   # All class
   class All < Push
-    attr_accessor :schedule, :tags, :sound, :badge, :except_tags, :alias,
+    attr_accessor :schedule, :tags, :sound, :badge, :except_tags, :device_alias,
                   :except_alias, :payload
 
     def initialize(platforms, message, schedule, options = {})
