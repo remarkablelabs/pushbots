@@ -31,5 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'webmock', '~> 1.24'
-  spec.add_runtime_dependency 'http', '~> 1.0', '>= 1.0.2'
+  spec.add_runtime_dependency 'http', '~> 2.2.2'
 end
